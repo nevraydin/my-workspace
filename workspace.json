@@ -5,7 +5,7 @@
     "my-angular-app-e2e": "apps/my-angular-app-e2e",
     "my-react-app": "apps/my-react-app",
     "my-react-app-e2e": "apps/my-react-app-e2e",
-    "ui": "libs/ui",
-    "ui-components-my-button": "libs/ui/components/my-button"
+    "ui-components-my-button": "libs/ui/components/my-button",
+    "ui-components-my-label": "libs/ui/components/my-label"
   }
 }

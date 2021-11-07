@@ -15,9 +15,11 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@my-workspace/ui": ["libs/ui/src/index.ts"],
       "@my-workspace/ui/components/my-button": [
         "libs/ui/components/my-button/src/index.ts"
+      ],
+      "@my-workspace/ui/components/my-label": [
+        "libs/ui/components/my-label/src/index.ts"
       ]
     }
   },

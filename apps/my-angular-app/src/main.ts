@@ -5,6 +5,7 @@ import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 
 import '@my-workspace/ui/components/my-button'; // add library to module.
+import '@my-workspace/ui/components/my-label'; // add library to module.
 
 if (environment.production) {
   enableProdMode();

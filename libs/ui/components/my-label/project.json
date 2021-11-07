@@ -1,0 +1,23 @@
+{
+  "root": "libs/ui/components/my-label",
+  "sourceRoot": "libs/ui/components/my-label/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/ui/components/my-label/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/ui/components/my-label"],
+      "options": {
+        "jestConfig": "libs/ui/components/my-label/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}
